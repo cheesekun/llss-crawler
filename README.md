@@ -18,4 +18,4 @@ node shenshe
 
 > 具体教程
 
-[用node爬取羞羞的东西](http://cheesekun.top/2017/05/30/ch1029/)
+[用node爬取羞羞的东西](http://cheesekun.top/2017/05/30/cheesekun.top/ch1029/)

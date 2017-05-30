@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "fs": "^0.0.1-security",
+    "superagent": "^3.5.2",
+    "superagent-logger": "^1.1.0"
+  },
+  "name": "llss-crawler",
+  "version": "1.0.0",
+  "description": "a node crawler to get the magnet url of hacg.wiki",
+  "main": "index.js",
+  "repository": "https://github.com/cheeseKun/llss-crawler",
+  "author": "cheesekun",
+  "license": "MIT"
+}

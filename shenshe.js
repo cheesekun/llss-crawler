@@ -41,6 +41,10 @@ for (let i = 1; i < 46; i++) {
             .use(logger)
             .redirects(5)
             .end(function (err, sres) {
+              if (err) {
+                  next(err);
+              }
+              
               let $ = cheerio.load(sres.text);
               let time = $('header time').text();
               // let author = $('.author a').text();

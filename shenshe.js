@@ -75,14 +75,15 @@ for (let i = 1; i < 46; i++) {
             time: content[0],
             seed: content[1],
           });
-          msg = `
+          msg = 
+           `
             title: ${title}
             tags: ${tag} 
             id: ${id} 
             time: ${content[0]}
             seed: magnet:?xt=urn:btih:${content[1]}               
            `;
-           msg = JSON.stringify(msg);
+          // msg = JSON.stringify(msg);
            
           // 将爬取信息插入到 msg.txt 文件中
           fs.appendFile("msg.txt", msg, function (err) {
